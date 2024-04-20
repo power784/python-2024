@@ -1,11 +1,11 @@
-class Player(object):
-    def __init__(self,y,x,speed):
+class Player:
+    def __init__(self, y: int, x: int, speed: int):
         self.y = y
         self.x = x
         self.speed = speed
 
-class Obstacle(object):
-    def __init__(self,y,x,w,h,speed,dr):
+class Obstacle:
+    def __init__(self, y: int, x: int, w: int, h: int, speed: int, dr: int):
         self.y = y
         self.x = x
         self.h = h

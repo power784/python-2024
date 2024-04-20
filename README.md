@@ -10,6 +10,14 @@
 - Python 3.6+ 
 - библиотека Pygame 2.5.2
 
+## Инструкция по запуску
+1) Настроить виртуальное окружение (опционально)
+2) Установить requirements.txt
+- Проект
+3) В cmd: PYTHONPATH=src python -m main.py
+
+- Тесты
+3) В cmd: PYTHONPATH=src python -m pytest --cov src tests
 
 ## Архитектура проекта
 
